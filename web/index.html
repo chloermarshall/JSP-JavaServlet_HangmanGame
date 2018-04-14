@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Juego del Ahorcado</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="game">
+            <h3>Juego del Ahorcado</h3>
+            <form action="Init" method="post">
+                Nivel de Dificultad:  <br>
+                <input type="radio" name="difficultad" id="bajo" value="Bajo">
+                <label for="bajo">Bajo</label><br>
+                <input type="radio" name="difficultad" id="medio" value="Medio" checked>
+                <label for="medio">Medio</label><br>
+                <input type="radio" name="difficultad" id="alto" value="Alto">
+                <label for="alto">Alto</label><br>
+                Número de intentos: <input type="text" name="intentos" value="10"><br><br>
+                <input type="submit">
+            </form>
+        </div>
+    </body>
+</html>
